@@ -1,0 +1,30 @@
+const GETSELLER = 'GETSELLER';
+const GETGOODS = 'GETGOODS';
+const GETRATINGS = 'GETRATINGS';
+const SETRIGHTSIDE = 'SETRIGHTSIDE';//修改右侧弹出框
+const HIDERIGHTSIDE = 'HIDERIGHTSIDE';//修改右侧弹出框
+const CREATEGOODS = 'CREATEGOODS';//获取所有商品
+const CREATERATINGS = 'CREATERATINGS';//评论
+const SETTYPESHOP = 'SETTYPESHOP';//商品分类点击获取对应介绍
+const CREATECART = 'CREATECART';//goods.vue向ratings.js发送cart
+const UPDATECART = 'UPDATECART';//
+const HASNAME = 'HASNAME';//判断用户名
+const LOGINOK = 'LOGINOK';//登录成功，设置全局user token
+const UPDATECARTHISTORY = 'UPDATECARTHISTORY';//点击获取订单历史记录之后
+
+
+export default{
+    GETSELLER,
+    GETGOODS,
+    GETRATINGS,
+    SETRIGHTSIDE,
+    HIDERIGHTSIDE,
+    CREATEGOODS,
+    CREATERATINGS,
+    SETTYPESHOP,
+    CREATECART,
+    UPDATECART,
+    HASNAME,
+    LOGINOK,
+    UPDATECARTHISTORY,
+}
